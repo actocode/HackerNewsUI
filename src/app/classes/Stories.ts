@@ -6,6 +6,11 @@ export class Stories {
     score: number | undefined;
     text: string | undefined;
     time: string | undefined;
-    title?: string;
+    title: string;
     type: string | undefined;
+
+    constructor() {
+        this.text = '';
+        this.title = '';
+    }
 }
